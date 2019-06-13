@@ -1,0 +1,18 @@
+{
+  "type": "postgres",
+  "host": "tuffi.db.elephantsql.com",
+  "port": 5432,
+  "username": "colewzni",
+  "password": "BlbNdKmR-iG3jnttGg5RWRMuGrb3PWHB",
+  "database": "colewzni",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["src/entity/**/*.ts"],
+  "migrations": ["src/migration/**/*.ts"],
+  "subscribers": ["src/subscriber/**/*.ts"],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  }
+}
